@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh; 
+}
+.heading{
+    width: 100vw;
+    height: 5.5rem;
+    background-color: #F3C90B;
+    color: #23282A;
+    box-shadow: 0px 10px 16px rgb(248, 247, 247);
+}
+.heading h1 {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+i.fa-solid.fa-plus {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 1200px;
+    cursor: pointer;
+    padding-right: 10px;
+    font-size: 30px;
+    background-color: green;
+    padding-left: 12px;
+    border-radius: 50%;
+}
+i.fa-solid.fa-plus:hover {
+    background-color: #F3C90B;
+}
+.note {
+    width: 250px;
+    height: 90px;
+    background-color: white;
+    border: 1px solid grey;
+    margin: 10px;
+    float: left;
+    position: relative;
+}
+.fa-pen-to-square,
+.fa-trash-can{
+    color: white;
+    padding: 5px;
+    background-color: green;
+    border-radius: 50%;
+    cursor: pointer;
+    
+
+}
+.fa-pen-to-square:hover{
+    background-color: white;
+    color: green;
+}
+.fa-trash-can:hover{
+    background-color: white;
+    color: red;
+}
+.opeartion {
+    margin-left: 188px;
+    position: absolute;
+}
+textarea {
+    margin-top: 26px;
+    width: 246px;
+    height: 60px;
+    border: none;
+    margin-bottom: 10px;
+}
+.fa-trash-can{
+    background-color: red;
+}
+.hidden {
+    display: none;
+}
+@media(max-width:672px) {
+    .container{
+        width: 30vw;
+    }
+    i.fa-solid.fa-plus {
+        margin-left: 6px;
+    }
+    .note {
+        position: relative;
+    }
+    .opeartion {
+        margin-left: 188px;
+        position: absolute;
+
+    }  
+    
+}
+
